@@ -1,0 +1,85 @@
+{
+  "studentId": "student-001",
+  "baseline": {
+    "date": "2026-01-15",
+    "overall": 53,
+    "factors": {
+      "planningOrganizing": {
+        "score": 55,
+        "olqs": {
+          "effectiveIntelligence": 58,
+          "reasoningAbility": 52,
+          "organizingAbility": 50,
+          "powerOfExpression": 60
+        }
+      },
+      "socialAdjustment": {
+        "score": 50,
+        "olqs": {
+          "socialAdaptability": 48,
+          "cooperation": 55,
+          "senseOfResponsibility": 47
+        }
+      },
+      "socialEffectiveness": {
+        "score": 52,
+        "olqs": {
+          "initiative": 55,
+          "selfConfidence": 48,
+          "speedOfDecision": 50,
+          "abilityToInfluenceGroup": 45,
+          "liveliness": 62
+        }
+      },
+      "dynamic": {
+        "score": 55,
+        "olqs": {
+          "determination": 58,
+          "courage": 52,
+          "stamina": 55
+        }
+      }
+    }
+  },
+  "current": {
+    "date": "2026-04-07",
+    "overall": 64,
+    "factors": {
+      "planningOrganizing": {
+        "score": 66,
+        "olqs": {
+          "effectiveIntelligence": 70,
+          "reasoningAbility": 64,
+          "organizingAbility": 60,
+          "powerOfExpression": 72
+        }
+      },
+      "socialAdjustment": {
+        "score": 60,
+        "olqs": {
+          "socialAdaptability": 58,
+          "cooperation": 65,
+          "senseOfResponsibility": 57
+        }
+      },
+      "socialEffectiveness": {
+        "score": 64,
+        "olqs": {
+          "initiative": 68,
+          "selfConfidence": 60,
+          "speedOfDecision": 62,
+          "abilityToInfluenceGroup": 58,
+          "liveliness": 72
+        }
+      },
+      "dynamic": {
+        "score": 66,
+        "olqs": {
+          "determination": 70,
+          "courage": 63,
+          "stamina": 65
+        }
+      }
+    }
+  }
+}

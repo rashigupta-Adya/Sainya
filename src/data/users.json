@@ -1,0 +1,85 @@
+{
+  "users": [
+    {
+      "id": "admin-001",
+      "email": "admin@sainya.com",
+      "password": "admin123",
+      "role": "super_admin",
+      "subRole": "super_admin",
+      "name": "Platform Admin",
+      "avatar": "PA"
+    },
+    {
+      "id": "content-001",
+      "email": "content@sainya.com",
+      "password": "content123",
+      "role": "super_admin",
+      "subRole": "content_manager",
+      "name": "Content Manager",
+      "avatar": "CM"
+    },
+    {
+      "id": "ops-001",
+      "email": "ops@sainya.com",
+      "password": "ops123",
+      "role": "super_admin",
+      "subRole": "operations",
+      "name": "Operations Officer",
+      "avatar": "OO"
+    },
+    {
+      "id": "analyst-001",
+      "email": "analyst@sainya.com",
+      "password": "analyst123",
+      "role": "super_admin",
+      "subRole": "analyst",
+      "name": "Data Analyst",
+      "avatar": "DA"
+    },
+    {
+      "id": "inst-001",
+      "email": "institute@sainya.com",
+      "password": "institute123",
+      "role": "institute",
+      "instituteId": "inst-001",
+      "name": "Cavalier Defence Academy",
+      "avatar": "CA"
+    },
+    {
+      "id": "mentor-001",
+      "email": "mentor@sainya.com",
+      "password": "mentor123",
+      "role": "mentor",
+      "name": "Col. Rajesh Sharma (Retd.)",
+      "avatar": "RS"
+    },
+    {
+      "id": "student-001",
+      "email": "student@sainya.com",
+      "password": "student123",
+      "role": "student",
+      "studentPath": "ssb",
+      "name": "Rahul Verma",
+      "avatar": "RV",
+      "examType": "NDA",
+      "ssbDate": "2026-05-20",
+      "attempt": 2,
+      "instituteId": "inst-001",
+      "batchId": "batch-001"
+    },
+    {
+      "id": "student-002",
+      "email": "student2@sainya.com",
+      "password": "student123",
+      "role": "student",
+      "studentPath": "written",
+      "name": "Priya Sharma",
+      "avatar": "PS",
+      "examType": "NDA",
+      "examDate": "2026-09-15",
+      "attempt": 1,
+      "instituteId": null,
+      "batchId": null
+    }
+  ]
+}

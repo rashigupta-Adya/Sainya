@@ -1,0 +1,72 @@
+{
+  "mentors": [
+    {
+      "id": "mentor-001",
+      "name": "Col. Rajesh Sharma (Retd.)",
+      "email": "mentor@sainya.com",
+      "background": "Former SSB Assessor",
+      "experience": "15 years SSB coaching",
+      "expertise": ["interview", "psychology", "conference", "personal-assessment"],
+      "rating": 4.8,
+      "sessionsCompleted": 156,
+      "studentsImproved": 112,
+      "status": "active",
+      "verified": true,
+      "bio": "Retired Colonel with 15 years of experience as SSB assessor and interviewing officer. Specializes in interview preparation and personal assessment.",
+      "monthlyEarnings": 45000,
+      "affiliatedInstitutes": ["inst-001", "inst-002"],
+      "joinedDate": "2025-09-20"
+    },
+    {
+      "id": "mentor-002",
+      "name": "Dr. Anita Desai",
+      "email": "anita.desai@sainya.com",
+      "background": "Military Psychologist",
+      "experience": "12 years defence psychology",
+      "expertise": ["psychology", "TAT", "WAT", "SRT", "self-description"],
+      "rating": 4.6,
+      "sessionsCompleted": 89,
+      "studentsImproved": 65,
+      "status": "active",
+      "verified": true,
+      "bio": "Clinical psychologist with 12 years of experience in defence psychology. Expert in psychological testing methods used in SSB selection.",
+      "monthlyEarnings": 32000,
+      "affiliatedInstitutes": ["inst-001"],
+      "joinedDate": "2025-11-10"
+    },
+    {
+      "id": "mentor-003",
+      "name": "Capt. Vikrant Mehta (Retd.)",
+      "email": "vikrant.mehta@sainya.com",
+      "background": "Former GTO",
+      "experience": "10 years GTO and outdoor training",
+      "expertise": ["gto", "group-discussion", "lecturette", "outdoor-tasks", "planning-exercise"],
+      "rating": 4.9,
+      "sessionsCompleted": 67,
+      "studentsImproved": 54,
+      "status": "active",
+      "verified": true,
+      "bio": "Retired Captain who served as Group Testing Officer. Specializes in GTO tasks, group dynamics, and leadership assessment through outdoor exercises.",
+      "monthlyEarnings": 28000,
+      "affiliatedInstitutes": ["inst-001", "inst-002"],
+      "joinedDate": "2025-12-05"
+    },
+    {
+      "id": "mentor-004",
+      "name": "Wing Cdr. Pooja Rathore (Retd.)",
+      "email": "pooja.rathore@sainya.com",
+      "background": "Former IAF Officer",
+      "experience": "8 years AFCAT and IAF selection",
+      "expertise": ["AFCAT-prep", "interview", "air-force-knowledge", "screening"],
+      "rating": 0,
+      "sessionsCompleted": 0,
+      "studentsImproved": 0,
+      "status": "pending_verification",
+      "verified": false,
+      "bio": "Retired Wing Commander from the Indian Air Force with 8 years of experience in AFCAT selection processes and IAF interview panels.",
+      "monthlyEarnings": 0,
+      "affiliatedInstitutes": [],
+      "joinedDate": "2026-03-28"
+    }
+  ]
+}

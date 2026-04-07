@@ -1,0 +1,109 @@
+{
+  "mockTests": [
+    {
+      "studentId": "student-001",
+      "testType": "ssb-screening",
+      "score": 62,
+      "date": "2026-01-25",
+      "percentile": 58
+    },
+    {
+      "studentId": "student-001",
+      "testType": "ssb-psychology",
+      "score": 55,
+      "date": "2026-02-05",
+      "percentile": 48
+    },
+    {
+      "studentId": "student-001",
+      "testType": "ssb-screening",
+      "score": 68,
+      "date": "2026-02-18",
+      "percentile": 65
+    },
+    {
+      "studentId": "student-001",
+      "testType": "ssb-psychology",
+      "score": 60,
+      "date": "2026-02-28",
+      "percentile": 55
+    },
+    {
+      "studentId": "student-001",
+      "testType": "ssb-full-mock",
+      "score": 58,
+      "date": "2026-03-10",
+      "percentile": 52
+    },
+    {
+      "studentId": "student-001",
+      "testType": "ssb-screening",
+      "score": 72,
+      "date": "2026-03-20",
+      "percentile": 70
+    },
+    {
+      "studentId": "student-001",
+      "testType": "ssb-psychology",
+      "score": 65,
+      "date": "2026-03-30",
+      "percentile": 62
+    },
+    {
+      "studentId": "student-001",
+      "testType": "ssb-full-mock",
+      "score": 64,
+      "date": "2026-04-02",
+      "percentile": 60
+    },
+    {
+      "studentId": "student-001",
+      "testType": "ssb-screening",
+      "score": 75,
+      "date": "2026-04-05",
+      "percentile": 73
+    },
+    {
+      "studentId": "student-001",
+      "testType": "ssb-full-mock",
+      "score": 78,
+      "date": "2026-04-06",
+      "percentile": 76
+    },
+    {
+      "studentId": "student-002",
+      "testType": "nda-math",
+      "score": 48,
+      "date": "2026-03-01",
+      "percentile": 42
+    },
+    {
+      "studentId": "student-002",
+      "testType": "nda-gat",
+      "score": 52,
+      "date": "2026-03-10",
+      "percentile": 46
+    },
+    {
+      "studentId": "student-002",
+      "testType": "nda-math",
+      "score": 55,
+      "date": "2026-03-22",
+      "percentile": 50
+    },
+    {
+      "studentId": "student-002",
+      "testType": "nda-full",
+      "score": 50,
+      "date": "2026-03-30",
+      "percentile": 44
+    },
+    {
+      "studentId": "student-002",
+      "testType": "nda-gat",
+      "score": 62,
+      "date": "2026-04-05",
+      "percentile": 58
+    }
+  ]
+}

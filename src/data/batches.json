@@ -1,0 +1,114 @@
+{
+  "batches": [
+    {
+      "id": "batch-001",
+      "name": "NDA SSB Prep May 2026",
+      "instituteId": "inst-001",
+      "startDate": "2026-01-15",
+      "targetSSBDate": "2026-05-20",
+      "mode": "hybrid",
+      "studentCount": 18,
+      "mentorIds": ["mentor-001", "mentor-002", "mentor-003"],
+      "avgSRS": 55,
+      "avgMockScore": 62,
+      "status": "active",
+      "milestones": [
+        {
+          "name": "Screening Readiness",
+          "targetDate": "2026-02-15",
+          "status": "completed"
+        },
+        {
+          "name": "Psychology Test Prep",
+          "targetDate": "2026-03-15",
+          "status": "completed"
+        },
+        {
+          "name": "GTO Readiness",
+          "targetDate": "2026-04-10",
+          "status": "in_progress"
+        },
+        {
+          "name": "Interview Prep",
+          "targetDate": "2026-04-30",
+          "status": "upcoming"
+        },
+        {
+          "name": "Full Mock SSB",
+          "targetDate": "2026-05-10",
+          "status": "upcoming"
+        }
+      ]
+    },
+    {
+      "id": "batch-002",
+      "name": "AFCAT SSB Prep May 2026",
+      "instituteId": "inst-001",
+      "startDate": "2026-02-01",
+      "targetSSBDate": "2026-05-15",
+      "mode": "online",
+      "studentCount": 12,
+      "mentorIds": ["mentor-001", "mentor-003"],
+      "avgSRS": 63,
+      "avgMockScore": 68,
+      "status": "active",
+      "milestones": [
+        {
+          "name": "Screening Readiness",
+          "targetDate": "2026-03-01",
+          "status": "completed"
+        },
+        {
+          "name": "Psychology Test Prep",
+          "targetDate": "2026-03-25",
+          "status": "in_progress"
+        },
+        {
+          "name": "GTO & Interview Prep",
+          "targetDate": "2026-04-20",
+          "status": "upcoming"
+        },
+        {
+          "name": "Full Mock SSB",
+          "targetDate": "2026-05-05",
+          "status": "upcoming"
+        }
+      ]
+    },
+    {
+      "id": "batch-003",
+      "name": "NDA Written Sep 2026",
+      "instituteId": "inst-001",
+      "startDate": "2026-01-20",
+      "targetSSBDate": null,
+      "mode": "online",
+      "studentCount": 15,
+      "mentorIds": ["mentor-001"],
+      "avgSRS": null,
+      "avgMockScore": 58,
+      "status": "active",
+      "milestones": [
+        {
+          "name": "Math Foundations",
+          "targetDate": "2026-03-15",
+          "status": "completed"
+        },
+        {
+          "name": "GAT Foundations",
+          "targetDate": "2026-04-15",
+          "status": "in_progress"
+        },
+        {
+          "name": "Full Syllabus Coverage",
+          "targetDate": "2026-06-30",
+          "status": "upcoming"
+        },
+        {
+          "name": "Mock Test Series",
+          "targetDate": "2026-08-31",
+          "status": "upcoming"
+        }
+      ]
+    }
+  ]
+}

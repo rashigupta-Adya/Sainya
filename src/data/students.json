@@ -1,0 +1,186 @@
+{
+  "students": [
+    {
+      "id": "student-001",
+      "name": "Rahul Verma",
+      "email": "student@sainya.com",
+      "path": "ssb",
+      "examType": "NDA",
+      "ssbDate": "2026-05-20",
+      "attempt": 2,
+      "instituteId": "inst-001",
+      "batchId": "batch-001",
+      "srsScore": 64,
+      "xp": 4280,
+      "level": 3,
+      "levelTitle": "Junior Leader",
+      "streak": 12,
+      "badges": [
+        "first-mock",
+        "streak-7",
+        "streak-10",
+        "psych-explorer",
+        "gto-warrior"
+      ],
+      "stageReadiness": {
+        "screening": 72,
+        "psychology": 58,
+        "gto": 65,
+        "interview": 60,
+        "conference": 55
+      },
+      "status": "active",
+      "joinedDate": "2026-01-10"
+    },
+    {
+      "id": "student-002",
+      "name": "Priya Sharma",
+      "email": "student2@sainya.com",
+      "path": "written",
+      "examType": "NDA",
+      "examDate": "2026-09-15",
+      "attempt": 1,
+      "instituteId": null,
+      "batchId": null,
+      "examReadiness": 42,
+      "xp": 1200,
+      "level": 2,
+      "levelTitle": "Cadet",
+      "streak": 5,
+      "badges": [
+        "first-mock",
+        "math-streak-3"
+      ],
+      "subjectScores": {
+        "mathematics": 48,
+        "english": 62,
+        "generalKnowledge": 38,
+        "physics": 35,
+        "chemistry": 40
+      },
+      "status": "active",
+      "joinedDate": "2026-02-20"
+    },
+    {
+      "id": "student-003",
+      "name": "Amit Singh",
+      "email": "amit.singh@sainya.com",
+      "path": "ssb",
+      "examType": "CDS",
+      "ssbDate": "2026-06-10",
+      "attempt": 1,
+      "instituteId": "inst-001",
+      "batchId": "batch-001",
+      "srsScore": 45,
+      "xp": 2100,
+      "level": 2,
+      "levelTitle": "Cadet",
+      "streak": 3,
+      "badges": [
+        "first-mock",
+        "streak-3"
+      ],
+      "stageReadiness": {
+        "screening": 50,
+        "psychology": 42,
+        "gto": 48,
+        "interview": 40,
+        "conference": 38
+      },
+      "status": "active",
+      "joinedDate": "2026-01-25"
+    },
+    {
+      "id": "student-004",
+      "name": "Sneha Patel",
+      "email": "sneha.patel@sainya.com",
+      "path": "ssb",
+      "examType": "AFCAT",
+      "ssbDate": "2026-05-15",
+      "attempt": 3,
+      "instituteId": "inst-001",
+      "batchId": "batch-002",
+      "srsScore": 72,
+      "xp": 8500,
+      "level": 4,
+      "levelTitle": "Leader",
+      "streak": 22,
+      "badges": [
+        "first-mock",
+        "streak-7",
+        "streak-10",
+        "streak-21",
+        "psych-explorer",
+        "gto-warrior",
+        "interview-ace",
+        "top-performer"
+      ],
+      "stageReadiness": {
+        "screening": 82,
+        "psychology": 70,
+        "gto": 75,
+        "interview": 68,
+        "conference": 65
+      },
+      "status": "active",
+      "joinedDate": "2025-11-05"
+    },
+    {
+      "id": "student-005",
+      "name": "Vikram Joshi",
+      "email": "vikram.joshi@sainya.com",
+      "path": "written",
+      "examType": "NDA",
+      "examDate": "2026-09-15",
+      "attempt": 2,
+      "instituteId": "inst-001",
+      "batchId": "batch-003",
+      "examReadiness": 61,
+      "xp": 3400,
+      "level": 3,
+      "levelTitle": "Junior Leader",
+      "streak": 8,
+      "badges": [
+        "first-mock",
+        "streak-7",
+        "math-streak-5",
+        "gat-explorer"
+      ],
+      "subjectScores": {
+        "mathematics": 65,
+        "english": 70,
+        "generalKnowledge": 55,
+        "physics": 58,
+        "chemistry": 52
+      },
+      "status": "active",
+      "joinedDate": "2026-01-15"
+    },
+    {
+      "id": "student-006",
+      "name": "Kavita Reddy",
+      "email": "kavita.reddy@sainya.com",
+      "path": "ssb",
+      "examType": "NDA",
+      "ssbDate": "2026-07-20",
+      "attempt": 1,
+      "instituteId": null,
+      "batchId": null,
+      "srsScore": 35,
+      "xp": 800,
+      "level": 1,
+      "levelTitle": "Recruit",
+      "streak": 0,
+      "badges": [],
+      "stageReadiness": {
+        "screening": 30,
+        "psychology": 35,
+        "gto": 32,
+        "interview": 38,
+        "conference": 28
+      },
+      "status": "inactive",
+      "joinedDate": "2026-03-01"
+    }
+  ]
+}

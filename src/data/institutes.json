@@ -1,0 +1,61 @@
+{
+  "institutes": [
+    {
+      "id": "inst-001",
+      "name": "Cavalier Defence Academy",
+      "city": "Lucknow",
+      "type": "coaching_institute",
+      "studentCount": 45,
+      "activeBatches": 3,
+      "mentorCount": 3,
+      "plan": "Growth",
+      "status": "active",
+      "adminName": "Maj. Sunil Tiwari (Retd.)",
+      "email": "institute@sainya.com",
+      "joinedDate": "2025-10-15",
+      "aiSessionsUsed": 320,
+      "aiSessionsQuota": 500,
+      "entryRoutes": ["NDA", "CDS", "AFCAT"],
+      "avgSRS": 58,
+      "recommendationRate": 82
+    },
+    {
+      "id": "inst-002",
+      "name": "Olive Greens Academy",
+      "city": "Dehradun",
+      "type": "coaching_institute",
+      "studentCount": 28,
+      "activeBatches": 2,
+      "mentorCount": 2,
+      "plan": "Starter",
+      "status": "active",
+      "adminName": "Lt. Col. Pradeep Negi (Retd.)",
+      "email": "admin@olivegreens.com",
+      "joinedDate": "2026-01-10",
+      "aiSessionsUsed": 145,
+      "aiSessionsQuota": 200,
+      "entryRoutes": ["NDA", "CDS"],
+      "avgSRS": 51,
+      "recommendationRate": 74
+    },
+    {
+      "id": "inst-003",
+      "name": "Pathfinder NDA Academy",
+      "city": "Pune",
+      "type": "coaching_institute",
+      "studentCount": 0,
+      "activeBatches": 0,
+      "mentorCount": 0,
+      "plan": "Starter",
+      "status": "pending_approval",
+      "adminName": "Capt. Ravi Kulkarni (Retd.)",
+      "email": "admin@pathfindernda.com",
+      "joinedDate": "2026-04-01",
+      "aiSessionsUsed": 0,
+      "aiSessionsQuota": 200,
+      "entryRoutes": ["NDA"],
+      "avgSRS": 0,
+      "recommendationRate": 0
+    }
+  ]
+}
