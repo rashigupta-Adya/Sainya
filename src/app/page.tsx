@@ -56,7 +56,7 @@ function Navbar() {
             Login
           </Link>
           <Link
-            href="/login"
+            href="/register/student"
             className="bg-rust text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-rust-dark transition-colors"
           >
             Start Free Assessment
@@ -105,7 +105,7 @@ function Navbar() {
               Login
             </Link>
             <Link
-              href="/login"
+              href="/register/student"
               className="bg-rust text-white px-4 py-2 rounded-lg text-sm font-semibold text-center hover:bg-rust-dark transition-colors"
             >
               Start Free Assessment
@@ -152,14 +152,14 @@ function Hero() {
 
           <div className="flex flex-wrap gap-4">
             <Link
-              href="/login"
+              href="/register/student"
               className="bg-rust text-white px-6 py-3 rounded-lg font-semibold hover:bg-rust-dark transition-colors flex items-center gap-2"
             >
               Take Free OLQ Assessment
               <ArrowRight className="w-4 h-4" />
             </Link>
             <Link
-              href="/login"
+              href="/register/institute"
               className="bg-white/10 text-white px-6 py-3 rounded-lg font-semibold hover:bg-white/20 transition-colors border border-white/20"
             >
               Register Your Institute
@@ -334,6 +334,7 @@ const personas = [
     description:
       "NDA, CDS, AFCAT, Tech Entry \u2014 prepare for written exams and SSB with AI-powered OLQ assessment and personalized feedback.",
     cta: "Start Free Assessment",
+    href: "/register/student",
   },
   {
     icon: Building2,
@@ -341,6 +342,7 @@ const personas = [
     description:
       "Bring your content, manage batches, track student OLQ progress. Scale beyond your physical classroom.",
     cta: "Register Institute",
+    href: "/register/institute",
   },
   {
     icon: User,
@@ -348,6 +350,7 @@ const personas = [
     description:
       "Ex-SSB officers, psychologists, GTO experts \u2014 coach aspirants at scale with structured tools and earn from sessions.",
     cta: "Join as Mentor",
+    href: "/register/mentor",
   },
 ];
 
@@ -369,7 +372,7 @@ function Personas() {
             return (
               <Link
                 key={p.title}
-                href="/login"
+                href={p.href}
                 className="group bg-white rounded-2xl p-6 border border-gray-100 hover:-translate-y-1 hover:shadow-lg transition-all"
               >
                 <div className="w-12 h-12 bg-forest/10 rounded-xl flex items-center justify-center mb-4">
@@ -532,7 +535,7 @@ function CTA() {
           across all 15 Officer Like Qualities in 10 minutes.
         </p>
         <Link
-          href="/login"
+          href="/register/student"
           className="inline-block bg-rust text-white px-8 py-3 rounded-lg font-semibold hover:bg-rust-dark transition-colors"
         >
           Start Free Assessment
@@ -558,13 +561,13 @@ function Footer() {
           </span>
         </div>
         <div className="flex gap-6 text-white/50 text-sm">
-          <Link href="/login" className="hover:text-white/80 transition-colors">
+          <Link href="/register/institute" className="hover:text-white/80 transition-colors">
             Institutes
           </Link>
-          <Link href="/login" className="hover:text-white/80 transition-colors">
+          <Link href="/register/mentor" className="hover:text-white/80 transition-colors">
             Mentors
           </Link>
-          <Link href="/login" className="hover:text-white/80 transition-colors">
+          <Link href="/register/student" className="hover:text-white/80 transition-colors">
             Students
           </Link>
         </div>
