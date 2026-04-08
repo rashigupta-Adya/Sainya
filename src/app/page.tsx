@@ -56,7 +56,7 @@ function Navbar() {
             Login
           </Link>
           <Link
-            href="/register/student"
+            href="/register/student/ssb"
             className="bg-rust text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-rust-dark transition-colors"
           >
             Start Free Assessment
@@ -105,7 +105,7 @@ function Navbar() {
               Login
             </Link>
             <Link
-              href="/register/student"
+              href="/register/student/ssb"
               className="bg-rust text-white px-4 py-2 rounded-lg text-sm font-semibold text-center hover:bg-rust-dark transition-colors"
             >
               Start Free Assessment
@@ -152,7 +152,7 @@ function Hero() {
 
           <div className="flex flex-wrap gap-4">
             <Link
-              href="/register/student"
+              href="/register/student/ssb"
               className="bg-rust text-white px-6 py-3 rounded-lg font-semibold hover:bg-rust-dark transition-colors flex items-center gap-2"
             >
               Take Free OLQ Assessment
@@ -535,7 +535,7 @@ function CTA() {
           across all 15 Officer Like Qualities in 10 minutes.
         </p>
         <Link
-          href="/register/student"
+          href="/register/student/ssb"
           className="inline-block bg-rust text-white px-8 py-3 rounded-lg font-semibold hover:bg-rust-dark transition-colors"
         >
           Start Free Assessment
