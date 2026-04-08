@@ -186,51 +186,42 @@ function Hero() {
               Sample OLQ Profile
             </p>
 
-            {/* Static radar chart mockup */}
+            {/* Static radar chart mockup - 4 axes for 4 OLQ factors */}
             <div className="flex justify-center mb-4">
-              <svg viewBox="0 0 200 200" className="w-64 h-64">
-                {/* Background rings */}
+              <svg viewBox="0 0 240 240" className="w-64 h-64">
+                {/* Background grid rings (4-sided) */}
                 {[80, 60, 40, 20].map((r) => (
                   <polygon
                     key={r}
-                    points={generateHexPoints(100, 100, r)}
+                    points={`120,${120-r} ${120+r},120 120,${120+r} ${120-r},120`}
                     fill="none"
-                    stroke="rgba(255,255,255,0.15)"
+                    stroke="rgba(255,255,255,0.12)"
                     strokeWidth="0.5"
                   />
                 ))}
                 {/* Axes */}
-                {[0, 60, 120, 180, 240, 300].map((angle) => {
-                  const rad = (angle * Math.PI) / 180;
-                  return (
-                    <line
-                      key={angle}
-                      x1="100"
-                      y1="100"
-                      x2={100 + 80 * Math.cos(rad - Math.PI / 2)}
-                      y2={100 + 80 * Math.sin(rad - Math.PI / 2)}
-                      stroke="rgba(255,255,255,0.1)"
-                      strokeWidth="0.5"
-                    />
-                  );
-                })}
-                {/* Data polygon */}
+                <line x1="120" y1="120" x2="120" y2="40" stroke="rgba(255,255,255,0.1)" strokeWidth="0.5" />
+                <line x1="120" y1="120" x2="200" y2="120" stroke="rgba(255,255,255,0.1)" strokeWidth="0.5" />
+                <line x1="120" y1="120" x2="120" y2="200" stroke="rgba(255,255,255,0.1)" strokeWidth="0.5" />
+                <line x1="120" y1="120" x2="40" y2="120" stroke="rgba(255,255,255,0.1)" strokeWidth="0.5" />
+                {/* Data polygon - 4 factors: P&O 78%, SA 65%, SE 72%, Dynamic 80% */}
                 <polygon
-                  points={generateDataPoints(100, 100, [65, 72, 55, 68, 78, 60])}
-                  fill="rgba(192,84,51,0.3)"
-                  stroke="#d4704f"
+                  points={`120,${120 - 80*0.78} ${120 + 80*0.65},120 120,${120 + 80*0.72} ${120 - 80*0.80},120`}
+                  fill="rgba(192,84,51,0.2)"
+                  stroke="#c05433"
                   strokeWidth="1.5"
                 />
                 {/* Data dots */}
-                {getDataDots(100, 100, [65, 72, 55, 68, 78, 60]).map((dot, i) => (
-                  <circle
-                    key={i}
-                    cx={dot.x}
-                    cy={dot.y}
-                    r="3"
-                    fill="#d4704f"
-                  />
-                ))}
+                <circle cx="120" cy={120 - 80*0.78} r="3.5" fill="#c05433" />
+                <circle cx={120 + 80*0.65} cy="120" r="3.5" fill="#c05433" />
+                <circle cx="120" cy={120 + 80*0.72} r="3.5" fill="#c05433" />
+                <circle cx={120 - 80*0.80} cy="120" r="3.5" fill="#c05433" />
+                {/* Axis labels */}
+                <text x="120" y="30" textAnchor="middle" fill="rgba(255,255,255,0.7)" fontSize="9" fontWeight="500">Planning &amp; Organizing</text>
+                <text x="212" y="124" textAnchor="start" fill="rgba(255,255,255,0.7)" fontSize="9" fontWeight="500">Social</text>
+                <text x="212" y="135" textAnchor="start" fill="rgba(255,255,255,0.7)" fontSize="9" fontWeight="500">Adjustment</text>
+                <text x="120" y="218" textAnchor="middle" fill="rgba(255,255,255,0.7)" fontSize="9" fontWeight="500">Social Effectiveness</text>
+                <text x="28" y="124" textAnchor="end" fill="rgba(255,255,255,0.7)" fontSize="9" fontWeight="500">Dynamic</text>
               </svg>
             </div>
 
@@ -254,42 +245,6 @@ function Hero() {
       </div>
     </section>
   );
-}
-
-/* Radar chart helpers */
-function generateHexPoints(cx: number, cy: number, r: number): string {
-  return Array.from({ length: 6 })
-    .map((_, i) => {
-      const angle = (i * 60 * Math.PI) / 180 - Math.PI / 2;
-      return `${cx + r * Math.cos(angle)},${cy + r * Math.sin(angle)}`;
-    })
-    .join(" ");
-}
-
-function generateDataPoints(
-  cx: number,
-  cy: number,
-  values: number[]
-): string {
-  return values
-    .map((v, i) => {
-      const angle = (i * 60 * Math.PI) / 180 - Math.PI / 2;
-      const r = (v / 100) * 80;
-      return `${cx + r * Math.cos(angle)},${cy + r * Math.sin(angle)}`;
-    })
-    .join(" ");
-}
-
-function getDataDots(
-  cx: number,
-  cy: number,
-  values: number[]
-): { x: number; y: number }[] {
-  return values.map((v, i) => {
-    const angle = (i * 60 * Math.PI) / 180 - Math.PI / 2;
-    const r = (v / 100) * 80;
-    return { x: cx + r * Math.cos(angle), y: cy + r * Math.sin(angle) };
-  });
 }
 
 /* ------------------------------------------------------------------ */
